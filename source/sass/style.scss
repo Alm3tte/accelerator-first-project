@@ -1,4 +1,38 @@
-// Vendor
-// ---------------------------------
+@import "./global/variables.scss";
+@import "./global/basic.scss";
+@import "./global/fonts.scss";
+@import "./global/visually-hidden";
+@import "./global/viewports.scss";
+@import "./global/mixin.scss";
+@import "./global/title.scss";
+@import "./global/button.scss";
 
-@import "vendor/normalize";
+@import "./blocks/main-hero.scss";
+@import "./blocks/main-nav.scss";
+@import "./blocks/description.scss";
+@import "./blocks/tours.scss";
+@import "./blocks/months.scss";
+@import "./blocks/season-ticket.scss";
+@import "./blocks/price.scss";
+@import "./blocks/training.scss";
+@import "./blocks/details.scss";
+@import "./blocks/advantages.scss";
+@import "./blocks/privilege.scss";
+@import "./blocks/reviews.scss";
+@import "./blocks/juri.scss";
+@import "./blocks/juri-card.scss";
+@import "./blocks/slider-juri.scss";
+
+@import "./blocks/card.scss";
+@import "./blocks/card-back.scss";
+@import "./blocks/offers.scss";
+@import "./blocks/event.scss";
+@import "./blocks/comments.scss";
+@import "./blocks/contacts.scss";
+@import "./blocks/contacts-info.scss";
+@import "./blocks/form.scss";
+@import "./blocks/promo.scss";
+@import "./blocks/main-footer.scss";
+@import "./blocks/services.scss";
+@import "./blocks/social.scss";
+// @import "vendor/normalize";

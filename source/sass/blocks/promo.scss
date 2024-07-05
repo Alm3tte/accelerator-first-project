@@ -1,0 +1,28 @@
+.promo {
+  @include width;
+}
+
+.promo__wrapper {
+  display: grid;
+
+  @media screen and (min-width: $desktop) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.promo__contacts {
+  @include container;
+
+  @media screen and (min-width: $desktop) {
+    padding: 0;
+  }
+}
+
+.promo__form {
+  @include container;
+  background-color: $color-basic;
+
+  @media screen and (min-width: $tablet) {
+    margin: 0;
+  }
+}

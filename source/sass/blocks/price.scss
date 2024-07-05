@@ -1,0 +1,28 @@
+.price {
+  position: relative;
+  padding-top: 68px;
+}
+
+.price__currency {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  color: $color-blue;
+  display: block;
+  z-index: 1;
+  position: relative;
+
+  &::before {
+    content: attr(data-period);
+    position: absolute;
+    top: -54px;
+    left: -20px;
+    font-size: 80px;
+    line-height: 120px;
+    color: $shadow;
+    opacity: 0.48;
+    z-index: -1;
+    overflow-wrap: break-word;
+  }
+
+}

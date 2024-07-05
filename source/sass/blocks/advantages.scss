@@ -1,0 +1,13 @@
+.advantages {
+  @include width;
+  background-color: $color-white-secondary;
+}
+
+.advantages__wrapper {
+  padding: 40px 0;
+}
+
+.advantages__list {
+  @include margins;
+  list-style: none;
+}

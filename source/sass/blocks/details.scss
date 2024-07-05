@@ -1,0 +1,46 @@
+.details table {
+  text-align: left;
+  border-collapse: collapse;
+  margin-left: 10px;
+
+  @media screen and (min-width: $desktop) {
+    margin: 0;
+  }
+}
+
+.details th {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 300;
+  border-bottom: 1px solid $color-white;
+  padding-bottom: 5px;
+
+  @media screen and (min-width: $tablet) {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+.details__big {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 700;
+  padding-top: 5px;
+
+  @media screen and (min-width: $desktop) {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+
+.details__small {
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 400;
+  padding-top: 5px;
+
+  @media screen and (min-width: $tablet) {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}

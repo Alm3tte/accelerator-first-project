@@ -1,0 +1,23 @@
+.main-footer {
+  @include width;
+  background-color: $color-black;
+}
+
+.main-footer__wrapper {
+  @include container;
+  @include list;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  row-gap: 30px;
+  align-items: center;
+
+  @media screen and (min-width: $tablet) {
+    padding-top: 45px;
+    padding-bottom: 48px;
+  }
+}
+
+.main-footer__list {
+  @include footer;
+  @include margins;
+}

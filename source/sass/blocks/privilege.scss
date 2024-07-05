@@ -1,0 +1,100 @@
+.privilege {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 35px;
+  flex-direction: column;
+  padding-top: 40px;
+
+
+  @media screen and (min-width: $tablet) {
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+    column-gap: 30px;
+    row-gap: 40px;
+    padding-top: 50px;
+    grid-template-columns: 324px 325px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    grid-template-columns: 360px 360px 360px;
+    grid-auto-flow: column;
+    column-gap: 40px;
+    row-gap: 80px;
+  }
+}
+
+.privilege__item {
+  text-align: center;
+  padding: 0 33px;
+  margin: 0 auto;
+
+  &--dark {
+    padding: 0;
+  }
+
+  @media screen and (min-width: $tablet) {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    column-gap: 14px;
+    text-align: left;
+  }
+}
+
+.privilege__title {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+
+  @media screen and (min-width: $tablet) {
+    font-size: 20px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    font-size: 22px;
+    line-height: 22px;
+  }
+}
+
+.privilege__description {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 300;
+
+  @media screen and (min-width: $tablet) {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.privilege__number {
+  font-size: 64px;
+  line-height: 64px;
+  font-weight: 700;
+  background-image: linear-gradient(128deg, $color-dark-red 0%, $gradient-number 45.58%);
+  background-clip: text;
+  color: transparent;
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+
+  @media screen and (min-width: $tablet) {
+    font-size: 70px;
+    line-height: 70px;
+    margin: 0;
+
+
+  }
+}
+
+.privilege__text {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: $privilege-text;
+
+  @media screen and (min-width: $tablet) {
+    line-height: 22px;
+  }
+}

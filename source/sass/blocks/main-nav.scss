@@ -1,0 +1,27 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 22px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  @media screen and (min-width: $tablet) {
+    font-size: 24px;
+    line-height: 24px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    font-size: 26px;
+    line-height: 26px;
+  }
+}
+
+.main-nav__phone {
+  color: $color-white;
+  text-decoration: none;
+}

@@ -1,0 +1,22 @@
+.button {
+  display: block;
+  background-color: inherit;
+  color: $color-white;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  border: 2px solid $color-white;
+  padding: 26px 105px 22px;
+  margin: 0 auto;
+  font-family: $roboto;
+  text-align: center;
+
+  @media screen and (min-width: $tablet) {
+    padding: 27px 189px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    padding: 27px 169px;
+  }
+}

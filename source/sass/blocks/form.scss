@@ -1,0 +1,43 @@
+.form__wrapper {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.form__title {
+  color: $color-white;
+  text-align: left;
+  margin: 0 0 36px;
+
+  @media screen and (min-width: $tablet) {
+    text-align: center;
+  }
+}
+
+.form__data-wrapper {
+  max-width: 477px;
+  margin: 0 auto;
+
+  @media screen and (min-width: $tablet) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 0 119px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    padding: 0;
+  }
+}
+
+.form__input {
+  color: $color-white;
+  opacity: 40%;
+  background-color: inherit;
+  border: 0;
+  border-bottom: 1px solid $color-line;
+  font-family: inherit;
+  width: 100%;
+  margin-bottom: 36px;
+  padding: 0 0 4px;
+}
+

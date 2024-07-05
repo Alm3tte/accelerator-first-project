@@ -1,0 +1,16 @@
+.contacts__title {
+  text-align: left;
+
+  @media screen and (min-width: $tablet) {
+    text-align: center;
+  }
+
+  @media screen and (min-width: $desktop) {
+    text-align: left;
+  }
+}
+
+.contacts__list {
+  @include margins;
+  list-style: none;
+}

@@ -1,0 +1,19 @@
+.services {
+  @include list;
+  row-gap: 20px;
+  column-gap: 35px;
+  justify-content: flex-start;
+
+  @media screen and (min-width: $tablet) {
+    column-gap: 30px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    column-gap: 82px;
+  }
+}
+
+.services__link {
+  text-decoration: none;
+  color: $color-white;
+}
